@@ -6,4 +6,3 @@ if __name__ == "__main__":
     prv = att.AttitudeConverter.dcm_to_prv(dcm)
     print("Short positive rotation=", prv.short_positive_phi())
     print("e_hat=", prv.phi_deg_e_hat[1])
-
